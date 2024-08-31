@@ -1,0 +1,154 @@
+html,
+body {
+  scroll-behavior:smooth;
+}
+
+/*Navigation*/
+.nav-bar {
+  background-color: black;
+  overflow: hidden;
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;  
+  display:block ;
+  border-bottom: 4px solid rgba(250, 250, 250, 0.562);
+}
+
+.nav-item {
+  text-decoration:none;
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.95rem;
+  padding: 19px 19px;
+  float: left;
+  margin-left: 3%;
+}
+
+
+.nav-item:hover {
+  background-color: #dadff5e5;
+  color: #000000;
+  transition: 500ms;
+}
+
+.content {
+  margin-top: 3rem;
+  width: 70%;
+  margin: auto;
+}
+
+body {
+  background-image: url("images/new\ blue.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  width: 980px;
+  font-family: Verdana;
+  line-height: 24px ;
+  color: rgb(255, 255, 255);
+}
+
+  
+h1 {
+  text-align: center;
+  position:static; 
+  margin-bottom: 10%;
+  line-height: 45px;
+  font-size: 30px;
+}
+h2{
+  text-align: center;
+  position:static; 
+
+}
+h3 {
+  text-align: justify;
+  background-color: #b2c0e418;
+}  
+h4 {
+  text-align: center;
+  position:relative; 
+}
+hr{
+ background-color: #686b78;
+}
+
+/*Border*/
+.border{
+  border-style:solid;
+  border-color:rgba(255, 255, 255, 0.562); 
+} 
+/*footer*/
+h6 {
+  text-align: center;
+  position:static; 
+  line-height: 20px ;
+}
+
+
+#video{
+  width: 685px;
+  height: 330px;
+}
+
+
+#book{
+  height: 180px;
+  width: 150px;
+  float: right;
+  position: static;
+  margin-top: 5% ;
+}
+#book-figcaption{
+  float: right;
+  margin-right: -25%;
+  margin-top: 33%;
+  font-size: 14px;
+  position: static;
+  font-style:normal;
+  color: #ffffff;
+  font-weight:100;
+}
+#book-figcaption:hover{
+  float: right;
+  margin-right: -25%;
+  margin-top: 33%;
+  font-size: 14px;
+  position: static;
+  font-style: none;
+  color: yellow;
+}
+
+#microsoft{
+  height: 120px;
+  width: 460px;
+  position:static;
+  margin-left: 10%;
+}
+#microsoft-figcaption{
+  float: center;
+  margin-left:-4%;
+  font-size: 14px;
+  position: static;
+  font-style: none;
+  color: #ffffff;
+  text-align: center;
+}
+
+#walmart{
+  height: 700px;
+  width: 600px;
+  position:static;
+  float: center;
+}
+#walmart-figcaption{
+  font-size: 14px;
+  position:relative;
+  font-style: none;
+  color: #ffffff;
+  left: 17%;
+  float: center;
+  display: inline-flex;
+}
+  
